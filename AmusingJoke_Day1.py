@@ -1,6 +1,6 @@
-guestName = list(input("Enter guest's name: "))
-residenceName = list(input("Enter residence's name: "))
-disorderedName = list(input("Enter jumbled name found: "))
+guestName = list(input())
+residenceName = list(input())
+disorderedName = list(input())
 
 combined = guestName + residenceName   #combining guest and residence name into single list.
 combined.sort()                        #sorting it alphabetically.
